@@ -38,6 +38,9 @@ boxplot(chickwts$weight ~ chickwts$feed)
 plot(chickwts$weight,col=chickwts$feed,main="Chick weights")
 legend("topleft", levels(chickwts$feed), fill = c("blue","green","black","orange","red"))
 
+![image](https://user-images.githubusercontent.com/29664888/169015792-5d2883cb-0c96-46de-bdec-64984c8c6d34.png)
+
+
 View(Orange)
 df <- Orange
 SP <- df$Tree
